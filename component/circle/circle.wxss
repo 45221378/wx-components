@@ -1,0 +1,8 @@
+.circle_box,.circle_draw{ position: relative; }
+.circle_bg{position: absolute;top: 0;left: 0;}
+.circle_box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
