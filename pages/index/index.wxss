@@ -1,5 +1,0 @@
-/**index.wxss**/
-.circle{
-  position: relative;
-  margin: 20rpx 0;
-}

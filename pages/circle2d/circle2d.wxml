@@ -1,0 +1,11 @@
+	<block wx:for="{{list}}" wx:key="index" wx:for-index="indexlist">
+		<view class="show-canvas">
+			<circle draw='circwewle{{indexlist}}' per='{{item}}' r='54' />
+			<text class='canvas_txt1'>{{item}}%</text>
+			<text class="canvas_txt2">正确率</text>
+		</view>
+	</block>
+
+	<movable-area class="movable-area">
+		<movable-view x="{{x}}" y="{{y}}" class="max" direction="all">tips</movable-view>
+	</movable-area>

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "circle": "/component/circle-2d/circle"
+  }
+}

@@ -1,13 +1,31 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/circle2d/circle2d",
+    "pages/circleold/circleold"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#A4A3A3",
+    "selectedColor": "#146BB3",
+    "list": [
+      {
+        "pagePath": "pages/circle2d/circle2d",
+        "text": "同层渲染",
+        "iconPath": "images/icon/homework-1.png",
+        "selectedIconPath": "images/icon/homework-2.png"
+      },
+      {
+        "pagePath": "pages/circleold/circleold",
+        "text": "旧canvas",
+        "iconPath": "images/icon/errorList-1.png",
+        "selectedIconPath": "images/icon/errorList-2.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

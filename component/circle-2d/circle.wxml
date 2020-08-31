@@ -1,0 +1,3 @@
+<view class="circle_box" style="width:{{size}}px;height:{{size}}px">
+	 <canvas type="2d" id="{{draw}}" class="myCanvas" style="width:{{size}}px;height:{{size}}px"></canvas>
+</view>

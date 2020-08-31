@@ -1,0 +1,62 @@
+/* pages/circleold/circleold.wxss */.intro {
+  margin: 30px;
+  text-align: center;
+}
+.movable-area{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  bottom: 0;
+  z-index: 9999;
+  border-top: 1rpx solid #f9f9f9;
+  pointer-events: none;
+}
+
+.max{
+  background-color: green;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  pointer-events: auto;
+}
+
+/* 图表的样式 */
+.show-canvas {
+  position: relative;
+  width: 110rpx;
+  height: 110rpx;
+  margin: 0 10rpx 0 0;
+  margin-left: 100rpx;
+}
+
+.canvas {
+  width: 118rpx;
+  height: 118rpx;
+}
+
+.show-canvas .canvas_txt1 {
+  color: #333;
+  font-size: 24rpx;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 28rpx;
+}
+
+.show-canvas .canvas_txt2 {
+  color: #999;
+  font-size: 18rpx;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 58rpx;
+}
+
+.myCanvas{
+  width: 55px;
+  height: 55px;
+}
