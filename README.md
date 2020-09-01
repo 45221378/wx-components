@@ -3,7 +3,7 @@
 
 ### 旧版本
 
-#### 旧版本通过 const ctx = wx.createCanvasContext(el, this);进行渲染，现在市面上，包括echart.js插件，目前都是使用的此方法。
+#### 旧版本通过 const ctx = wx.createCanvasContext(el, this)进行渲染，现在市面上，包括echart.js插件，目前都是使用的此方法。
 
 ##### 此方法有几个问题，优化难度比较大，需要注意
 
