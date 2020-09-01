@@ -19,3 +19,8 @@
 ### 新版本
 
 #### 新版本通过 canvas.getContext('2d') 进行渲染，此方法在真机测试中，层级可以通过z-index进行覆盖。
+
+
+
+体验请看
+![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
