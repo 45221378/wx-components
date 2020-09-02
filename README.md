@@ -1,9 +1,6 @@
 # circle
 微信小程序-圆形进度条组件
 
-# audio
-微信小程序-音频播放器组件
-
 ### 旧版本
 
 #### 旧版本通过 const ctx = wx.createCanvasContext() 进行渲染，现在市面上，包括echart.js插件，目前都是使用的此方法。
@@ -24,6 +21,8 @@
 #### 新版本通过 canvas.getContext('2d') 进行渲染，此方法在真机测试中，层级可以通过z-index进行覆盖。
 
 
+# audio
+微信小程序-音频播放器组件
 
 体验请看
 ![Image text](https://github.com/45221378/circle/blob/master/images/wx.jpg)
